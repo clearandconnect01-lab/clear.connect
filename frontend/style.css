@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #2b7a78;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+button {
+  background: #2b7a78;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+/* Index.html specific */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
+
+.rewards {
+  background: #def3f2;
+  border-left: 4px solid #2b7a78;
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 6px;
+}
+
+input, select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+/* Profile setup form */
+#profileSetup {
+  max-width: 400px;
+  margin: 3rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+#profileSetup h2 {
+  color: #2b7a78;
+  margin-bottom: 1rem;
+}
+
+#profileSetup input {
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Profile.html */
+.profile-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ccc;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+h2 { color: #2b7a78; margin: 0.5rem 0; }
+p { color: #666; margin: 0.3rem 0; }
+.points { margin-top: 1rem; font-weight: bold; color: #2b7a78; }
+
+/* Calculator.html */
+.calculator {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.calculator input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.calculator button {
+  padding: 0.7rem 1.5rem;
+  margin-top: 1rem;
+}
+
+.calculator h2 { color: #2b7a78; }

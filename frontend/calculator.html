@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recycle Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 3rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    input,
+    button {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background: #2b7a78;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    #backBtn {
+      background: #555;
+    }
+
+    #result {
+      margin-top: 1rem;
+      font-weight: bold;
+      color: #2b7a78;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Recycle Calculator</h2>
+    <input type="number" id="plastic" placeholder="Plastic kg">
+    <input type="number" id="paper" placeholder="Paper kg">
+    <input type="number" id="metal" placeholder="Metal kg">
+    <input type="number" id="glass" placeholder="Glass kg">
+    <input type="number" id="ewaste" placeholder="E-Waste kg">
+    <button onclick="calculateAndSavePoints()">Apply</button>
+    <div id="result"></div>
+    <button id="proceedBtn" onclick="window.location.href='profile.html'" style="display:none;">See Profile</button>
+    <button id="backBtn" onclick="window.location.href='index.html'">Back to Directory</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
